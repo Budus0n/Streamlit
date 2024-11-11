@@ -39,7 +39,7 @@ def dashboard_page():
     plt.title(f"Total Charges vs. {variable} by Churn Status")
     st.pyplot(plt)
 
-# do a correlation heatmap
+# correlation heatmap
     # heat map Tenure vs Totalcharges
     st.subheader("Correlation Heatmap")
     corr= data[["tenure", "MonthlyCharges"]].corr()

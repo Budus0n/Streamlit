@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-# Define the function for the home page (no need for set_page_config here)
+# Define the function for the home page 
 def home_page():
-    # Title and Subtitle with Styling
+    # Title and Subtitle 
     st.title("Telco Churn Classification Project")
     st.subheader("Using Machine Learning to Predict Customer Churn")
     st.markdown(
@@ -63,10 +63,10 @@ def home_page():
     streamlit run app.py
     """, language="bash")
 
-    # Video (Optional) - Add a video URL if you have one
-    # st.video("URL_or_path_to_video.mp4")
+    # Video  
+    
 
-    # Contact Information Section with Divider and Contact Button
+    # Contact Information Section 
     st.markdown(
         """
         <hr style="border-top: 3px solid #bbb; margin-top: 20px; margin-bottom: 20px;">

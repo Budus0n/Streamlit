@@ -11,9 +11,9 @@ def authenticate():
         username = st.sidebar.text_input("Username", "")
         password = st.sidebar.text_input("Password", type="password")
 
-        # Predefined credentials (you can replace this with a more secure method)
+        # Predefined credentials 
         correct_username = "phil"
-        correct_password = "123456"  # Example password (use a more secure method in production)
+        correct_password = "123456"  
 
         if st.sidebar.button("Login"):
             if username == correct_username and password == correct_password:

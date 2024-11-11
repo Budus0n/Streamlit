@@ -5,7 +5,7 @@ from predict import predict_page
 from dashboard import dashboard_page
 from auth import authenticate
 
-# Set the page configuration here (at the very beginning of the app)
+# Set page configuration
 st.set_page_config(page_title="Telco Churn Classification", page_icon="📊", layout="centered")
 
 def main():
@@ -16,7 +16,7 @@ def main():
         page = st.sidebar.selectbox("Navigate", ["Home", "Data", "Predict", "Dashboard"])
 
         if page == "Home":
-            home_page()  # Call the home_page function
+            home_page()  
         elif page == "Data":
             data_page()
         elif page == "Predict":

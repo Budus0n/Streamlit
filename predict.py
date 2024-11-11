@@ -18,7 +18,7 @@ def predict_page():
 
     pipeline =load_pipeline()
     
-    # load the models i want to work 
+    # load the models 
     models_paths ={'Logistic Regression':'models/LR_model.pkl',
                    'RF':'models/RF_model.pkl',
                    'GB':'models/GB_model.pkl',
