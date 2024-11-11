@@ -60,3 +60,5 @@ tzdata==2024.2
 urllib3==2.2.3
 utils==1.0.2
 watchdog==5.0.3
+matplotlib
+pyplot
