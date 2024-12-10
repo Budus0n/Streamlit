@@ -47,7 +47,8 @@ To run the app locally, ensure you have the following:
 
 ## How to Access
 
-- Use the password: **Thegame** to access the app.
+- Use Username = "phil"
+      Password = "123456"
 
 ---
 
